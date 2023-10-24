@@ -1,0 +1,10 @@
+#!/bin/bash
+#In a given fragment of text, replace all sequences of multiple spaces 
+with just one space.
+
+
+#code
+
+tr -s ' '
+
+#To Follow -> https://github.com/sariamubeen
