@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+#Given a text file, count the number of times each line repeats itself 
+(only consider consecutive repetions). Display the count and the line, 
+separated by a space. There shouldn't be leading or trailing spaces. 
+Please note that the uniq -c command by itself will generate the output in 
+a different format.
+
+
+
+
+
+#code
+uniq -c -i | cut -c7-
+
+
+#To Follow -> https://github.com/sariamubeen
