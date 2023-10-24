@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Display the 2nd and 7th character from each line of text.
+
+
+#code
+cut -c 2,7
+#To Follow -> https://github.com/sariamubeen

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Given a tab delimited file with several columns (tsv format) print the 
+first three fields.
+
+
+#code
+cut -d $'\t' -f1-3
+#To Follow -> https://github.com/sariamubeen

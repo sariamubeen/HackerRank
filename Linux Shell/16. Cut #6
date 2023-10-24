@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Print the characters from thirteenth position to the end.
+
+
+#code
+cut -c 13-
+#To Follow -> https://github.com/sariamubeen
