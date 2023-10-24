@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+#code
+
+sort -n -k2 -r -t '|'
+#To Follow -> https://github.com/sariamubeen
