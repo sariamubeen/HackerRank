@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Given N  integers, compute their average, rounded to three decimal places.
+
+#code
+read N
+
+# Initialize variables
+sum=0
+
+# Loop to read N integers
+for i in $(seq 1 $N); do
+    read number
+    sum=$(( $sum + $number ))
+done
+
+# Calculate the average
+# Display the rounded average
+
+printf "%.3f\n" `echo "$sum / $N" | bc -l`
+
+
+
+#To Follow -> https://github.com/sariamubeen

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Given two integers, X and Y, find their sum, difference, product, and quotient.
+
+
+#code
+
+read a 
+read b
+echo "$((a+b))" #Addition
+echo "$((a-b))" #Subtraction 
+echo "$((a*b))" #Multiplication 
+echo "$((a/b))" #division 
+
+
+
+
+#To Follow -> https://github.com/sariamubeen

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Write a Bash script which accepts name as input and displays the greeting "Welcome (name)"
+
+#code
+
+for i in {1..50}
+do
+    echo $i
+done
+
+
+
+
+#To Follow -> https://github.com/sariamubeen

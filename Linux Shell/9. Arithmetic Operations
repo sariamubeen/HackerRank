@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#A mathematical expression containing +,-,*,^, / and parenthesis will be provided. Read in the expression, then evaluate it. Display the result rounded to 3 decimal places.
+
+#code
+# Prompt the user for the expression
+read expression
+
+# Use 'bc' to evaluate the expression and round the result to 3 decimal places
+# Display the rounded result
+
+printf "%.3f" $(echo "scale = 4; $expression" | bc);
+
+
+
+
+#To Follow -> https://github.com/sariamubeen

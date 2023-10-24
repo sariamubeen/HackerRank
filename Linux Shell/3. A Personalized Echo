@@ -1,0 +1,34 @@
+#!/bin/bash
+
+#Write a Bash script which accepts name as input and displays the greeting "Welcome (name)"
+
+#code
+
+read name 
+
+
+echo "Welcome $name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#To Follow -> https://github.com/sariamubeen
