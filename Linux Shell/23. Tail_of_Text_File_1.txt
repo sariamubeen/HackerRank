@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#In this challenge, we practice using the tail command to display the last  
+lines of a text file.
+
+#Display the last 20 lines of an input file.
+
+#code
+
+tail -n 20
+
+#To Follow -> https://github.com/sariamubeen

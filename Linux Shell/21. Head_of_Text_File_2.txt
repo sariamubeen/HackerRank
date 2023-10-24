@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#In this challenge, we practice using the head command to display the 
+first  characters of a text file.
+
+#Display the first 20 characters of an input file.
+
+
+
+#code
+
+head -c 20
+#To Follow -> https://github.com/sariamubeen

@@ -1,0 +1,10 @@
+#!/bin/bash
+#Display the lines (from line number 12 to 22, both inclusive) of a given 
+text file.
+
+
+
+#code
+
+sed -n '12,22p'
+#To Follow -> https://github.com/sariamubeen
