@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Given a sentence, identify and display its first three words. Assume that 
-the space (' ') is the only delimiter between words.
+#the space (' ') is the only delimiter between words.
 
 
 #code
