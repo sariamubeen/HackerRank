@@ -1,0 +1,18 @@
+#You have a test string S.
+#Your task is to write a regex which will match S, with following condition(s):
+
+#S consists of tic or tac.
+#tic should not be immediate neighbour of itself.
+#The first tic must occur only when tac has appeared at least twice before.
+
+#Follow : https://github.com/sariamubeen
+
+
+
+$Regex_Pattern = '^(\2tic|(tac))+$';
+$Test_String = <STDIN> ;
+if($Test_String =~ /$Regex_Pattern/){
+    print "true";
+} else {
+    print "false";
+}
