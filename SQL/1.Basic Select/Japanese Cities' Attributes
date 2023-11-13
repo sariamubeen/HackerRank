@@ -25,4 +25,4 @@ t.Field From table1 t" instead of "select t.Field From table1 AS t"
     3. Type your code immediately after comment. Don't leave any blank 
 line.
 */
-SELECT * FROM City WHERE CountryCode="JPN";
+Select * from CITY where COUNTRYCODE='JPN';
